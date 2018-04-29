@@ -1,0 +1,18 @@
+html{
+background: #D8D8D8;
+    
+}
+
+body{
+    background: #F2F2F2;
+    color: darkslategray;
+    width: 800px;
+    height: 620px;
+}
+}
+table{
+    color: gray;
+    font-family:sans-serif;
+    width: auto;
+    height: auto;
+}

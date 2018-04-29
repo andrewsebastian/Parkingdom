@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Parkingdom</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="parkingdom.css" type="text/css" rel="stylesheet">
+        <title>Nuevo Registro de Operarios</title>
+    </head>
+    <body>
+        
+       <form>
+          <fieldset>  
+          
+           <legend>NUEVO REGISTRO DE OPERARIO </legend>
+           <table border="0" cellspacing="0" cellpadding="10">
+            <header>
+            <div>
+            <img src="logo_parkingdom.jpeg" height="150px" width="250px" align="right">
+            </div>
+            </header>
+            <tr>
+              <td>Nombres:</td><td><input id="Nombres" type="text" name="Nombres" required=""></td>
+            </tr>
+               
+            <tr>
+            <td>Apellidos:</td>
+            <td><input id="Apellidos" type="text" name="Apellidos" required=""></td>
+            </tr>
+               
+            <tr>            
+            <td>Tipo de documento:</td>
+            <td>
+                <select name="Tipo_de documento">
+                <option value="T.D">Tipo de documento</option>
+                <option value="C.C">Cedula de Ciudadania</option>
+                <option value="C.E">Cedula de Extranjeria</option>
+                </select>
+            </td>
+            </tr>
+               
+            <tr>            
+            <td>Numero de documento:</td><td><input id="Numero_de_documento" type="text" name="Numero_de_documento" required=""></td>
+            </tr>
+            
+            <tr>            
+            <td>Telefono Celular:</td>
+            <td><input id="Telefono_Celular" type="number" name="Telefono_Celular" required=""></td>
+            </tr>
+               
+            <tr>
+            <td>Telefono Fijo:</td>
+            <td><input id="Telefono_Fijo" type="number" name="Telefono_Fijo" required=""></td>
+            </tr>
+             
+            <tr>
+            <td>Nickname Operario:</td>
+            <td><input id="Nickname_Operario" type="text" name="Nickname_Operario" required=""></td>
+            </tr>
+               
+            <tr>    
+            <td>Contraseña:</td>
+            <td><input id="Contraseña" type="password" name="Contraseña" required=""></td></tr>
+            <tr><td></td><td>La contraseña debe tener numeros y letras</td></tr>
+            <tr>   
+            <td><center><input type="checkbox"><td>Desea que la contraseña sea enviada a su correo</td></center></td>
+            </tr>
+            <tr>
+            <td><td><td><td><center><input type="submit" value="Menu Princpal"></center></td>
+            </tr>
+            <tr>
+            <td><td><td><td><center><input type="reset" value="Ingresar Nuevo Usuario" onclick="alert('los datos se guardaron exitosamente')"></center></td>
+            </tr>
+               
+          
+            </table>
+        </fieldset>  
+       </form> 
+    </body>
+</html>
